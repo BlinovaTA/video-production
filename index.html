@@ -10,36 +10,46 @@
   <div class="wrapper">
     <header class="header">
       <a href="/" class="logo">
-        <img src="" alt="" class="logo__pic">
+        <img src="" alt="Логотип" class="logo__pic">
       </a>
-      <aside class="sidebar">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">Главная</li>
-            <li class="menu__item">Услуги</li>
-            <li class="menu__item">Отзывы</li>
-          </ul>
-        </nav>
-      </aside>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
       <address class="contacts">
         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        <div class="contacts__schedule">График работы</div>
+        <span class="contacts__schedule">График работы</span>
         <div class="contacts__details">
           <p class="contacts__workhours"><b>пн-вс: 09:00 - 20:00</b></p>
           <p class="contacts__lunch">Обед: 14:00 - 14:30</p>
         </div>
       </address>
     </header>
-    <div class="page-content">
-      <img src="" alt="" class="content-image">
-      <main class="main-content">
-        <h1 class="main-content__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
-        <p class="main-content__subtitle">Креативный видеопродакшн полного цикла</p>
-        <a href="#" class="main-content__details">ПОДРОБНЕЕ</a>
+
+    <main class="main-content">
+      <div class="preview">
+        <h1 class="preview__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
+        <p class="preview__subtitle">Креативный видеопродакшн полного цикла</p>
+        <div class="preview__button">
+          <button class="button">Подробнее</button>
+        </div>
+      </div>
+      <div class="services-content">
         <nav class="services">
           <ul class="services__list">
             <li class="services__item">
-              <img src="" alt="" class="services__image">
+              <div class="serices__image-wrapper">
+                <img src="" alt="Реклама" class="services__image">
+              </div>
               <h3 class="services__title">Реклама</h3>
               <div class="services__conditions">
                 <p class="services__condition">От <b>5</b> человек на проект</p>
@@ -48,22 +58,27 @@
               <article class="services__description">
                 Креатив и производство рекламы, документального и корпоративного контента.
               </article>
-              <a href="#" class="services__details">ПОДРОБНЕЕ</a>
+              <div class="services__button">
+                <button class="button">Подробнее</button>
+              </div>
             </li>
             <li class="services__item">
-              <img src="" alt="" class="services__image">
+              <img src="" alt="Видео-клип" class="services__image">
               <h3 class="services__title">Видео-клип</h3>
               <div class="services__conditions">
                 <p class="services__condition">От <b>7</b> человек на проект</p>
                 <p class="services__condition"><b>21</b> дней работы в среднем</p>
               </div>
               <article class="services__description">
-                Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!
+                Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео?
+                Прекрасно!
               </article>
-              <a href="#" class="services__details">ПОДРОБНЕЕ</a>
+              <div class="services__button">
+                <button class="button">Подробнее</button>
+              </div>
             </li>
             <li class="services__item">
-              <img src="" alt="" class="services__image">
+              <img src="" alt="Свадьба" class="services__image">
               <h3 class="services__title">Свадьба</h3>
               <div class="services__conditions">
                 <p class="services__condition">От <b>2</b> человек на проект</p>
@@ -72,16 +87,18 @@
               <article class="services__description">
                 Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
               </article>
-              <a href="#" class="services__details">ПОДРОБНЕЕ</a>
+              <div class="services__button">
+                <button class="button">Подробнее</button>
+              </div>
             </li>
           </ul>
         </nav>
-      </main>
+      </div>
       <div class="news-content">
         <nav class="news">
           <ul class="news__list">
             <li class="news__item">
-              <img src="" alt="" class="news__image">
+              <img src="" alt="Новость" class="news__image">
               <p class="news__date">Декабрь 2019</p>
               <h3 class="news__title">Снимем ваш клип на 50% дешевле</h3>
               <article class="news__description">
@@ -89,7 +106,7 @@
               </article>
             </li>
             <li class="news__item">
-              <img src="" alt="" class="news__image">
+              <img src="" alt="Новость" class="news__image">
               <p class="news__date">Декабрь 2019</p>
               <h3 class="news__title">Акция для молодоженов 30%</h3>
               <article class="news__description">
@@ -101,62 +118,83 @@
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
           <ul class="paginator__list">
-            <li class="paginator_item">1</li>
-            <li class="paginator_item">2</li>
-            <li class="paginator_item">3</li>
-            <li class="paginator_item">4</li>
-            <li class="paginator_item">5</li>
-            <li class="paginator_item">6</li>
-            <li class="paginator_item">7</li>
+            <li class="paginator_item">
+              <a href="" class="paginator__link">1</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">2</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">3</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">4</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">5</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">6</a>
+            </li>
+            <li class="paginator_item">
+              <a href="#" class="paginator__link">7</a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="about-content">
-      <img src="" alt="" class="about-content__image">
-      <div class="about-content__about">
-        <h2 class="about-content__title">О НАС</h2>
-        <article class="about-content__description">
-          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
-          осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
-          домашних условиях.
-        </article>
-        <a href="#" class="about-content__details">ПОДРОБНЕЕ</a>
+      <div class="about">
+        <img src="" alt="О нас" class="about__image">
+        <div class="about-content">
+          <h2 class="about-content__title">О нас</h2>
+          <article class="about-content__description">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+            осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+            домашних условиях.
+          </article>
+          <div class="about-content__button">
+            <button class="button">Подробнее</button>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
+
     <footer class="footer">
       <a href="/" class="logo">
-        <img src="" alt="" class="logo__pic">
+        <img src="" alt="Логотип" class="logo__pic">
       </a>
-      <aside class="sidebar">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">Главная</li>
-            <li class="menu__item">Услуги</li>
-            <li class="menu__item">Отзывы</li>
-          </ul>
-        </nav>
-      </aside>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
       <nav class="social-network">
         <ul class="social-network__list">
           <li class="social-network__item">
             <a href="#" class="social-network__logo">
-              <img src="" alt="" class="social-network__pic">
+              <img src="" alt="Telegram" class="social-network__pic">
             </a>
           </li>
           <li class="social-network__item">
             <a href="#" class="social-network__logo">
-              <img src="" alt="" class="social-network__pic">
+              <img src="" alt="ВК" class="social-network__pic">
             </a>
           </li>
           <li class="social-network__item">
             <a href="#" class="social-network__logo">
-              <img src="" alt="" class="social-network__pic">
+              <img src="" alt="Facebook" class="social-network__pic">
             </a>
           </li>
           <li class="social-network__item">
             <a href="#" class="social-network__logo">
-              <img src="" alt="" class="social-network__pic">
+              <img src="" alt="Instagram" class="social-network__pic">
             </a>
           </li>
         </ul>
