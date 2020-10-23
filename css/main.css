@@ -1,37 +1,405 @@
-@font-face {
-  font-family: 'open_sans';
-  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
-    url('../fonts/opensans-bold-webfont.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'open_sans';
-  src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
-    url('../fonts/opensans-extrabold-webfont.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'open_sans';
-  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-    url('../fonts/opensans-regular-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'open_sans';
-  src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
-    url('../fonts/opensans-semibold-webfont.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
 body {
-  font-family: 'open_sans', sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
- }
+  background: #17191C;
+  color: #fff;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+b {
+  color: #000;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1145px;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 103px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 35px;
+  left: 439px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu__item:last-child {
+  margin: 0;
+}
+
+.menu__item--active .menu__link {
+  color: #FF3D00;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #FF3D00;
+}
+
+.menu__footer {
+  position: absolute;
+  left: 329px;
+  top: 33px;
+}
+
+.contacts {
+  position: absolute;
+  top: 23px;
+  right: 3px;
+  font-style: normal;
+  text-align: right;
+  line-height: 1.32;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #FF3D00;
+  position: absolute;
+  top: 30px;
+  right: 3px;
+}
+
+.contacts__desc {
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.hero {
+  margin-bottom: 233px;
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.hero__text-section {
+  width: 778px;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.button {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  padding: 18px 53px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 35px;
+  border: none;
+  /* display: inline-block; */
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--color--orange {
+  background: #FF3D00;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+  color: #fff;
+}
+
+.button--color--orange:hover {
+  background: #FF5500;
+  color: #fff;
+}
+
+.button--color--white {
+  border: 2px solid #FF5500;
+  background: #fff;
+  color: #FF5500;
+}
+
+.button--color--white:hover {
+  background: #FF5500;
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 175px;
+}
+
+.news-content {
+  margin-bottom: 145px;
+}
+
+.section__title,
+.news-content__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 51px;
+}
+
+.services__item {
+  min-height: 475px;
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 23px;
+  width: 362px;
+}
+
+.services__item:last-child {
+  margin-right: 0;
+}
+
+.services__image-wrapper {
+  min-height: 80px;
+  margin: 36px 30px 18px;
+}
+
+.services__content {
+  padding: 6px 23px 20px;
+  color: #000;
+}
+
+.services__title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.services__conditions {
+  margin-bottom: 8px;
+}
+
+.services__condition {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 58px;
+  color: #666;
+}
+
+.services__condition:last-child {
+  width: 123px;
+}
+
+.services__condition:first-child {
+  width: 120px;
+}
+
+.services__condition:last-child {
+  margin-right: 0;
+}
+
+.services__description {
+  color: #666;
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.news {
+  margin-bottom: 56px;
+}
+
+.news__item {
+  width: 557px;
+  height: 391px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  margin-right: 22px;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(0deg, rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4));
+  /* opacity: .4; */
+}
+
+.news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 32px;
+  min-height: 150px;
+}
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 13px;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display,
+.paginator__list,
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display {
+  margin-right: 26px;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.paginator__item--active .paginator__link {
+  background: #FF5500;
+}
+
+.paginator__link:hover {
+  background: #FF5500;
+}
+
+.about-content {
+  margin-bottom: 0;
+}
+
+.about:before,
+.about__desc {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.about:before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("../img/decor/cameraman.jpg") center center / cover no-repeat;
+}
+
+.about__desc {
+  background: #fff;
+  border-radius: 5px;
+  padding: 69px 203px 69px 81px;
+  width: 785px;
+  margin-left: -139px;
+  margin-top: 96px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 37px;
+  color: #000;
+}
+
+.about__desc-text {
+  margin-bottom: 42px;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+  color: #060606;
+
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.about__desc-text p:last-child {
+  margin-bottom: 0;
+}
+
