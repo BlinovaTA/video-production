@@ -94,12 +94,6 @@ p {
   color: #FF3D00;
 }
 
-.menu__footer {
-  position: absolute;
-  left: 329px;
-  top: 33px;
-}
-
 .contacts {
   position: absolute;
   top: 23px;
@@ -402,4 +396,3 @@ p {
 .about__desc-text p:last-child {
   margin-bottom: 0;
 }
-
