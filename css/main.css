@@ -192,7 +192,7 @@ p {
 }
 
 .section {
-  margin-bottom: 175px;
+  margin-bottom: 178px;
 }
 
 .news-content {
@@ -221,12 +221,12 @@ p {
 }
 
 .services__image-wrapper {
-  min-height: 80px;
-  margin: 36px 30px 18px;
+  min-height: 85px;
+  margin: 36px 29px 23px;
 }
 
 .services__content {
-  padding: 6px 23px 20px;
+  padding: 0 22px 53px 23px;
   color: #000;
 }
 
