@@ -214,6 +214,11 @@ p {
   display: inline-block;
   margin-right: 23px;
   width: 362px;
+  border: 5px solid #fff;
+}
+
+.services__item--border {
+  border: 5px solid #ccc;
 }
 
 .services__item:last-child {
@@ -222,11 +227,11 @@ p {
 
 .services__image-wrapper {
   min-height: 85px;
-  margin: 36px 29px 23px;
+  margin: 32px 25px 23px;
 }
 
 .services__content {
-  padding: 0 22px 53px 23px;
+  padding: 0 22px 47px 17px;
   color: #000;
 }
 
