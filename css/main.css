@@ -191,6 +191,10 @@ p {
   color: #fff;
 }
 
+.button--size--low {
+  padding: 18px 39px;
+}
+
 .section {
   margin-bottom: 178px;
 }
