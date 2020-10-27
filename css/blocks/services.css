@@ -2,11 +2,14 @@
   margin-bottom: 178px;
 }
 
+.services__list {
+  display: flex;
+}
+
 .services__item {
   min-height: 475px;
   background: #fff;
   border-radius: 5px;
-  display: inline-block;
   margin-right: 23px;
   width: 362px;
   border: 5px solid #fff;
@@ -38,10 +41,10 @@
 
 .services__conditions {
   margin-bottom: 8px;
+  display: flex;
 }
 
 .services__condition {
-  display: inline-block;
   vertical-align: top;
   margin-right: 58px;
   color: #666;

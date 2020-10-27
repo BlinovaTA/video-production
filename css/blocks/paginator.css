@@ -1,12 +1,12 @@
 .paginator {
   text-align: center;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
-.paginator__display,
-.paginator__list,
-.paginator__item {
-  display: inline-block;
-  vertical-align: middle;
+.paginator__list {
+  display: flex;
 }
 
 .paginator__display {
