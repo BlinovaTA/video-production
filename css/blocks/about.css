@@ -21,9 +21,9 @@
 .about__desc {
   background: #fff;
   border-radius: 5px;
-  padding: 69px 203px 69px 81px;
+  padding: 70px 203px 68px 81px;
   width: 785px;
-  margin-left: -139px;
+  margin-left: -136px;
   margin-top: 96px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .about__desc-text {
-  margin-bottom: 42px;
+  margin-bottom: 44px;
 }
 
 .about__desc-text p {

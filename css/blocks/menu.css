@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  top: 35px;
+  top: 38px;
   left: 439px;
 }
 
@@ -10,7 +10,7 @@
 
 .menu__item {
   vertical-align: middle;
-  margin-right: 50px;
+  margin-right: 54px;
   font-size: 14px;
 }
 
@@ -38,5 +38,5 @@
 .menu__footer {
   position: absolute;
   left: 329px;
-  top: 33px;
+  top: 37px;
 }

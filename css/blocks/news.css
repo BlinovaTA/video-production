@@ -1,5 +1,5 @@
 .news {
-  margin-bottom: 56px;
+  margin-bottom: 53px;
   display: flex;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .news__item {
-  width: 557px;
-  height: 391px;
+  width: 558px;
+  height: 394px;
   vertical-align: top;
   position: relative;
   overflow: hidden;
@@ -40,7 +40,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px 32px;
+  padding: 24px 32px;
   min-height: 150px;
 }
 
