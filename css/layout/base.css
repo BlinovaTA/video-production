@@ -44,7 +44,13 @@ p {
   box-sizing: border-box;
 }
 
-html, body {
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html,
+body {
   height: 100%;
 }
 
@@ -73,7 +79,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1145px;
+  width: 1142px;
 }
 
 .main-page-wrapper {

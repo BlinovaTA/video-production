@@ -3,7 +3,7 @@
 }
 
 .about-content {
-  margin-bottom: 52px;
+  margin-bottom: 55px;
 }
 
 .about:before,
@@ -22,7 +22,7 @@
   background: #fff;
   border-radius: 5px;
   padding: 70px 203px 68px 81px;
-  width: 785px;
+  max-width: 785px;
   margin-left: -136px;
   margin-top: 96px;
 }
@@ -36,7 +36,7 @@
 }
 
 .about__desc-text {
-  margin-bottom: 44px;
+  margin-bottom: 42px;
 }
 
 .about__desc-text p {

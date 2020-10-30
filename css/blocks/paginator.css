@@ -1,12 +1,16 @@
 .paginator {
-  text-align: center;
+  align-items: center;
   display: flex;
-  align-items: baseline;
   justify-content: center;
 }
 
 .paginator__list {
   display: flex;
+  align-items: center;
+}
+
+.paginator__item {
+  text-align: center;
 }
 
 .paginator__display {
@@ -29,4 +33,16 @@
 
 .paginator__link:hover {
   background: #FF5500;
+}
+
+.paginator--theme--light {
+  color: #202123;
+}
+
+.paginator--theme--light .paginator__item--active .paginator__link {
+  color: #fff;
+}
+
+.paginator--theme--light .paginator__link:hover {
+  color: #fff;
 }

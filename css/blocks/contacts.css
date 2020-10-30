@@ -1,16 +1,12 @@
 .contacts {
-  position: absolute;
-  top: 25px;
-  right: 3px;
   font-style: normal;
   text-align: right;
-  line-height: 1.32;
+  padding-top: 7px;
 }
 
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 4px;
   color: #fff;
 }
 
@@ -18,9 +14,7 @@
   font-size: 13px;
   text-decoration-line: underline;
   color: #FF3D00;
-  position: absolute;
-  top: 30px;
-  right: 3px;
+  margin-top: -8px;
 }
 
 .contacts__desc {

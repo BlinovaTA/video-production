@@ -1,5 +1,11 @@
 .header {
-  height: 120px;
-  position: relative;
-  margin-bottom: 104px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+}
+
+.header__menu {
+  margin-left: -6px;
+  padding-top: 21px;
 }

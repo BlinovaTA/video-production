@@ -1,12 +1,8 @@
 .socials__list {
-  position: absolute;
-  top: 27px;
-  right: 268px;
   display: flex;
 }
 
 .socials__item {
-  vertical-align: middle;
   margin-right: 10px;
 }
 
