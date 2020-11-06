@@ -20,6 +20,13 @@
   margin-bottom: 38px;
 }
 
+.central__frame {
+  position: absolute;
+  width: 1128px;
+  height: 643px;
+  margin: auto;
+}
+
 .central-video {
   opacity: 0;
   animation: rotateIn .9s;
