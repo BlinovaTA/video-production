@@ -22,6 +22,11 @@
   color: #666;
 }
 
+.form__input:focus {
+  outline: 1px solid #CCC;
+  -moz-outline-radius: 4px;
+}
+
 .form__input--textarea {
   height: 233px;
   padding-top: 29px;
