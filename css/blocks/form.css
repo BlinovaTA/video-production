@@ -23,8 +23,8 @@
 }
 
 .form__input:focus {
-  outline: 1px solid #CCC;
-  -moz-outline-radius: 4px;
+  outline: none;
+  border: 1px solid #ccc;
 }
 
 .form__input--textarea {
