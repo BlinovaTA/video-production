@@ -37,8 +37,11 @@
 }
 
 .review__user::after {
-  content: url("../../img/icons/socials/vk-colored.png");
-  height: 29px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url('../../img/icons/socials/css_sprites.png') -122px -122px;
+  margin-left: 5px;
 }
 
 .review__tags {
